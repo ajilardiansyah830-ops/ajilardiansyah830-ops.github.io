@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Website Najiel</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #F5F0E6;
+            font-family: Arial, sans-serif;
+            color: #263746;
+            margin: 0;
+            padding: 35px 15px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            background: #FFFCF7;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(24, 49, 67, 0.15);
+        }
+
+        td {
+            padding: 22px;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #183142, #28566A);
+            color: white;
+            text-align: left;
+            border-bottom: 5px solid #4CAF50;
+        }
+
+        .header h1 {
+            font-size: 38px;
+            margin: 10px 0;
+            text-transform: capitalize;
+        }
+
+        .header i {
+            color: #D6EBDD;
+            letter-spacing: 2px;
+        }
+
+        /* MENU */
+        .menu {
+            background: #FFFFFF;
+            text-align: center;
+            border-bottom: 1px solid #E4E8E3;
+        }
+
+        .menu a {
+            display: inline-block;
+            text-decoration: none;
+            color: #263746;
+            font-weight: bold;
+            padding: 12px 18px;
+            margin: 3px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            background: #183142;
+            color: white;
+        }
+
+        /* KONTEN */
+        .content {
+            width: 68%;
+            vertical-align: top;
+            line-height: 1.8;
+        }
+
+        .content h2 {
+            color: #183142;
+            border-left: 5px solid #4CAF50;
+            padding-left: 12px;
+            margin-top: 0;
+        }
+
+        .content p {
+            margin: 16px 0;
+        }
+
+        .contact-card {
+            background: #F8F4EC;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #E5E0D5;
+        }
+
+        .contact-card p {
+            overflow-wrap: anywhere;
+        }
+
+        .contact-card b {
+            color: #28566A;
+        }
+
+        .contact-card a {
+            color: #287A46;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: 32%;
+            vertical-align: top;
+            background: #F8F4EC;
+        }
+
+        .sidebar h3 {
+            color: #287A46;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ol {
+            padding-left: 22px;
+            line-height: 2.2;
+        }
+
+        .sidebar a {
+            color: #28566A;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            color: #287A46;
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #183142;
+            color: white;
+            text-align: center;
+            border-top: 5px solid #4CAF50;
+        }
+
+        .footer p {
+            margin: 8px 0;
+        }
+
+        .copyright {
+            color: #8FE0A4;
+            font-size: 13px;
+            text-align: right;
+        }
+
+        /* RESPONSIVE */
+        @media screen and (max-width: 650px) {
+            body {
+                padding: 15px 8px;
+            }
+
+            td {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .menu a {
+                padding: 10px;
+                margin: 2px;
+                font-size: 14px;
+            }
+
+            .content,
+            .sidebar {
+                display: block;
+                width: 100%;
+            }
+
+            .copyright {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <!-- HEADER -->
+    <tr>
+        <td colspan="2" class="header">
+            <h1>Website Najiel</h1>
+            <i>Najiel Jr - Hubungi Kami</i>
+        </td>
+    </tr>
+
+    <!-- MENU -->
+    <tr>
+        <td colspan="2" class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="Profil.html">Profil</a>
+            <a href="kegiatan.html">Kegiatan</a>
+            <a href="kontak.html">Kontak</a>
+        </td>
+    </tr>
+
+    <!-- ISI -->
+    <tr>
+        <td class="content">
+            <h2>Kontak Kami</h2>
+
+            <p>
+                Jika ingin memberikan pertanyaan atau saran,
+                silakan hubungi kami melalui informasi kontak berikut.
+            </p>
+
+            <div class="contact-card">
+                <p>
+                    <b>Nama:</b><br>
+                    Muhammad Nazrel Ardiansyah
+                </p>
+
+                <p>
+                    <b>Email:</b><br>
+                    <a href="mailto:ajilardiansyah830@gmail.com">
+                        ajilardiansyah830@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <b>WhatsApp:</b><br>
+                    08xxxxxxxxxx
+                </p>
+
+                <p>
+                    <b>Alamat:</b><br>
+                    Tangerang, Banten
+                </p>
+            </div>
+        </td>
+
+        <!-- TAUTAN EKSTERNAL -->
+        <td class="sidebar">
+            <h3>Tautan Eksternal</h3>
+
+            <ol>
+                <li>
+                    <a href="https://www.mawan.net" target="_blank">
+                        Website Mawan
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wikipedia.org" target="_blank">
+                        Wikipedia
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com" target="_blank">
+                        W3Schools
+                    </a>
+                </li>
+            </ol>
+        </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+        <td colspan="2" class="footer">
+            <p>Website Orang Keren</p>
+            <p class="copyright">
+                &copy; 2026 NAJIEL
+            </p>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
